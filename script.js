@@ -1,13 +1,30 @@
-// fetch('http://127.0.0.1:8000/')
-//     .then(res => console.log(res))
+let apiData = null
+const divConsole = document.querySelector('.console')
 
-// fetch('https://reqres.in/api/users')
-//     .then(res => res.json())
-//     .then(data => console.log(data))
-
-
-// console.log(fetch('http://127.0.0.1:8000/'))
-fetch('http://127.0.0.1:8000/')
+fetch('http://127.0.0.1:8000/items/3?q=any')
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => {
+        console.log(data)
+        apiData = data
+    })
+    .then(res => {
+        // divConsole.innerHTML += apiData
+    })
+    .then(res => {
+        let printObj = function (obj) {
+            let string = '';
+
+            for (let prop in obj) {
+                if (typeof obj[prop] == 'string') {
+                    string += prop + ': ' + obj[prop] + '; </br>';
+                } else {
+                    string += prop + ': { </br>' + obj[prop] + '}';
+                }
+            }
+
+            return string;
+        }
+        // divConsole.innerHTML += printObj(apiData)
+        divConsole.innerHTML = JSON.stringify(apiData);
+    })
 
