@@ -27,6 +27,7 @@ fetch('http://127.0.0.1:8000/items/3?q=any')
         // divConsole.innerHTML += printObj(apiData)
         divConsole.innerHTML = JSON.stringify(apiData);
     })
+    .catch(error => console.log('Fetch1: ' + error))
 
 
 fetch('http://127.0.0.1:8000', {
@@ -40,4 +41,4 @@ fetch('http://127.0.0.1:8000', {
         return res.json()
     })
     .then(data => console.log(data))
-    .then(error => console.log(error))
+    .catch(error => console.log('Fetch2: ' + error))
