@@ -85,7 +85,9 @@
 }
 
 .console {
-    background: #000;
+    min-width: 500px;
+    min-height: 300px;
+    background: #1A374D;
     border-radius: 1em;
     padding: 1em;
     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
