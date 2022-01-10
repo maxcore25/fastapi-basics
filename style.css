@@ -8,11 +8,87 @@
     height: 100vh;
     display: grid;
     place-content: center;
+    background: #876E9C;
+    background: -webkit-linear-gradient(top left, #876E9C, #E94393);
+    background: -moz-linear-gradient(top left, #876E9C, #E94393);
+    background: linear-gradient(to bottom right, #876E9C, #E94393);
+
+    /*    background: #4BA49D;*/
+    /*background: -webkit-linear-gradient(top left, #4BA49D, #64C53B);*/
+    /*background: -moz-linear-gradient(top left, #4BA49D, #64C53B);*/
+    /*background: linear-gradient(to bottom right, #4BA49D, #64C53B);*/
+
+    /*    background: #D41564;*/
+    /*background: -webkit-linear-gradient(top left, #D41564, #D54E3A);*/
+    /*background: -moz-linear-gradient(top left, #D41564, #D54E3A);*/
+    /*background: linear-gradient(to bottom right, #D41564, #D54E3A);*/
+
+    /*    background: #AFD8BC;*/
+    /*background: -webkit-linear-gradient(top left, #AFD8BC, #1B46BB);*/
+    /*background: -moz-linear-gradient(top left, #AFD8BC, #1B46BB);*/
+    /*background: linear-gradient(to bottom right, #AFD8BC, #1B46BB);*/
+
+    /*    background: #7BFDE1;*/
+    /*background: -webkit-linear-gradient(top left, #7BFDE1, #035A9A);*/
+    /*background: -moz-linear-gradient(top left, #7BFDE1, #035A9A);*/
+    /*background: linear-gradient(to bottom right, #7BFDE1, #035A9A);*/
+
+    /*    background: #C890EC;*/
+    /*background: -webkit-linear-gradient(top left, #C890EC, #BA1D73);*/
+    /*background: -moz-linear-gradient(top left, #C890EC, #BA1D73);*/
+    /*background: linear-gradient(to bottom right, #C890EC, #BA1D73);*/
+
+    /*    background: #181C80;*/
+    /*background: -webkit-linear-gradient(top left, #181C80, #CC2C9A);*/
+    /*background: -moz-linear-gradient(top left, #181C80, #CC2C9A);*/
+    /*background: linear-gradient(to bottom right, #181C80, #CC2C9A);*/
+
+    /*    background: #7B5EF3;*/
+    /*background: -webkit-linear-gradient(top left, #7B5EF3, #BB8FE9);*/
+    /*background: -moz-linear-gradient(top left, #7B5EF3, #BB8FE9);*/
+    /*background: linear-gradient(to bottom right, #7B5EF3, #BB8FE9);*/
+
+    /*    background: #F8F410;*/
+    /*background: -webkit-linear-gradient(top left, #F8F410, #2E88CB);*/
+    /*background: -moz-linear-gradient(top left, #F8F410, #2E88CB);*/
+    /*background: linear-gradient(to bottom right, #F8F410, #2E88CB);*/
+
+    /*    background: #F45B8D;*/
+    /*background: -webkit-linear-gradient(top left, #F45B8D, #5318CB);*/
+    /*background: -moz-linear-gradient(top left, #F45B8D, #5318CB);*/
+    /*background: linear-gradient(to bottom right, #F45B8D, #5318CB);*/
+
+    /*    background: #9103F4;*/
+    /*background: -webkit-linear-gradient(top left, #9103F4, #E65DFA);*/
+    /*background: -moz-linear-gradient(top left, #9103F4, #E65DFA);*/
+    /*background: linear-gradient(to bottom right, #9103F4, #E65DFA);*/
+
+    /*    background: #970AAB;*/
+    /*background: -webkit-linear-gradient(top left, #970AAB, #CC081B);*/
+    /*background: -moz-linear-gradient(top left, #970AAB, #CC081B);*/
+    /*background: linear-gradient(to bottom right, #970AAB, #CC081B);*/
+
+    /*    background: #F21690;*/
+    /*background: -webkit-linear-gradient(top left, #F21690, #D495F3);*/
+    /*background: -moz-linear-gradient(top left, #F21690, #D495F3);*/
+    /*background: linear-gradient(to bottom right, #F21690, #D495F3);*/
+
+    /*    background: #04455D;*/
+    /*background: -webkit-linear-gradient(top left, #04455D, #8DEA57);*/
+    /*background: -moz-linear-gradient(top left, #04455D, #8DEA57);*/
+    /*background: linear-gradient(to bottom right, #04455D, #8DEA57);*/
+
+    /*    background: #677984;*/
+    /*background: -webkit-linear-gradient(top left, #677984, #46286C);*/
+    /*background: -moz-linear-gradient(top left, #677984, #46286C);*/
+    /*background: linear-gradient(to bottom right, #677984, #46286C);*/
 }
 
 .console {
     background: #000;
     border-radius: 1em;
     padding: 1em;
-    box-shadow: 5px 5px 10px red;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
