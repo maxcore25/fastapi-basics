@@ -11,7 +11,7 @@
 
 #hero-section {
     min-height: 100vh;
-    padding: 2rem;
+    padding: 1.5rem;
     display: grid;
     place-content: center;
     background: #876E9C;
@@ -91,13 +91,36 @@
 }
 
 .console {
-    position: relative;
-    /*width: clamp(200px, 10px + 40vmin, 1000px);*/
-    width: clamp(250px, 60vw, 1000px);
-    min-height: 800px;
+    width: clamp(280px, 60vw, 1000px);
+    height: 90vh;
     color: #f1f1f1;
     background: #1A374D;
     border-radius: 1em;
     padding: 1em;
     box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.console-upper-buttons-container {
+    margin: 0 0 1em;
+}
+
+.console-btn {
+    top: 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.console-btn.red {
+    background: #ff5f56;
+}
+
+.console-btn.yellow {
+    background: #ffbd2e;
+}
+
+.console-btn.green {
+    background: #27c93f;
 }
