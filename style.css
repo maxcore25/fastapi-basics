@@ -3,13 +3,15 @@
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     font-size: 16px;
     font-family: sans-serif;
 }
 
 #hero-section {
-    height: 100vh;
+    min-height: 100vh;
+    padding: 2rem;
     display: grid;
     place-content: center;
     background: #876E9C;
@@ -89,13 +91,13 @@
 }
 
 .console {
-    width: 500px;
-    height: 300px;
+    position: relative;
+    /*width: clamp(200px, 10px + 40vmin, 1000px);*/
+    width: clamp(250px, 60vw, 1000px);
+    min-height: 800px;
     color: #f1f1f1;
     background: #1A374D;
     border-radius: 1em;
     padding: 1em;
-    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
